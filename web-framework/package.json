@@ -1,0 +1,16 @@
+{
+  "name": "web-framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "parcel": "parcel index.html",
+    "json-server": "json-server -w db.json"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
